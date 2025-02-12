@@ -87,7 +87,7 @@
     align-items: center;
 }
 
-main {
+.max-width {
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -95,7 +95,7 @@ main {
 /* Nav Style Starts */
 .nav-bar {
    justify-content: space-around;
-   padding: 20px 0;
+   padding: 20px 80px;
 }
 
 .nav-brand {
@@ -120,5 +120,22 @@ main {
 
 .nav-link a {
     text-decoration: none;
+}
+
+/* Banner Style Starts */
+.banner {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+
+.banner-desc {
+    font-size: 1.25rem;
+    line-height: auto;
+    margin-bottom: 35px;
 }
 
