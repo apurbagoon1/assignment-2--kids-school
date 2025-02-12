@@ -1,7 +1,6 @@
 /* Common Styles */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -40,10 +39,35 @@
     color: #5D58EF;
 }
 
+.color-5 {
+    color: #64C8FF;
+}
+
+.color-6 {
+    color: #F0AA00;
+}
+
+.color-7 {
+    color: #8700FF;
+}
+
+.gradient-1 {
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+}
+
+.gradient-2 {
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+}
+
+.gradient-3 {
+    background: linear-gradient(#EEE1FF, #FFFFFF);
+}
+
 .section-title {
     font-weight: bold;
     font-size: 2.8rem;
     text-align: center;
+    margin: 0;
 }
 
 .btn-1 {
@@ -80,6 +104,21 @@
     color: black;
     background-color: #FFFFFF;
     border: 1px solid black;
+}
+
+.btn-3 {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.btn-3:hover {
+    transform: scale(1.2);
 }
 
 .flex {
@@ -137,5 +176,54 @@
     font-size: 1.25rem;
     line-height: auto;
     margin-bottom: 35px;
+}
+
+/* Std Curriculum Style Starts */
+.std-curriculum {
+    padding: 60px 0;
+}
+
+.std-card-list {
+    justify-content: center;
+    gap: 28px;
+}
+
+.std-card {
+    margin: 80px 0;
+    text-align: center;
+    border-radius: 18px;
+    padding: 50px 25px;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.05);
+}
+
+.std-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+    color: #202020;
+}
+
+.std-card-desc {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: #808080;
+}
+
+.prev-next {
+    justify-content: center;
+    gap: 10px;
+}
+
+.prev, .next {
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    cursor: pointer;
 }
 
