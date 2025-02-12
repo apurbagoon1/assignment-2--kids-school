@@ -1,5 +1,5 @@
 /* Common Styles */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .quicksand-font {
     font-family: "Quicksand", serif;
@@ -8,11 +8,11 @@
 }
 
 .bg-image {
-    background-image: url('../assets/bg.png');
+    background: url('../assets/bg.png');
 }
 
-.bg-image-gradient {
-    background-image: url('../assets/bg.png');
+.bg-gradient {
+    background: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3)), url('../assets/bg.png')
 }
 
 .bg-color-1 {
@@ -21,6 +21,14 @@
 
 .bg-color-2 {
     background-color: #01ACFD;
+}
+
+#bg-color-3 {
+    background-color: #95B226;
+}
+
+#bg-color-4 {
+    background-color: #5D58F0;
 }
 
 .color-1 {
@@ -226,4 +234,94 @@
     background-color: #FEA301;
     cursor: pointer;
 }
+
+/* Our Story Style Starts */
+.our-stories {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.story-card-list {
+    justify-content: center;
+    gap: 20px;
+    margin: 80px auto;
+}
+
+.story-card-primary {
+    max-width: 540px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.card-p1-date {
+    background-color: #3CD8E8;
+    border-radius: 50px;
+    width: 170px;
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+
+.card-p1-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 38px;
+    color: #000000;
+    text-align: left;
+    padding: 0 30px;
+    margin-top: -20px;
+}
+
+.card-p1-desc {
+    font-family: "Raleway", serif;
+    color: #666666;
+    line-height: 28px;
+    text-align: left;
+    padding: 0 30px;
+    margin: 30px 0;
+}
+
+.card-secondary-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-sec {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.card-sec-date {
+    background-color: #3CD8E8;
+    border-radius: 50px;
+    width: 170px;
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+
+.card-sec-title {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: left;
+    padding: 0 30px;
+    margin-top: -42px;
+}
+
+.story-img {
+    border-radius: 16px 16px 0 0;
+}
+
 
