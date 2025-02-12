@@ -12,7 +12,7 @@
 }
 
 .bg-gradient {
-    background: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3)), url('../assets/bg.png')
+    background: linear-gradient(#FFFFFF, rgba(254, 163, 1, 0.3)), url('../assets/bg.png');
 }
 
 .bg-color-1 {
@@ -317,11 +317,71 @@
     line-height: 28px;
     text-align: left;
     padding: 0 30px;
-    margin-top: -42px;
+    margin-top: -45px;
 }
 
 .story-img {
     border-radius: 16px 16px 0 0;
+}
+
+/* Footer Style Starts */
+footer {
+    background-color: #01ACFD;
+    color: #FFFFFF;
+    padding: 120px 0;
+    margin: 0;
+}
+
+.brand {
+    gap: 20px;
+}
+
+.footer-logo {
+    width: 80px;
+    /* color: #FFFFFF; */
+    background-color: #FFFFFF;
+    padding: 5px 0;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 38px;
+}
+
+.footer-desc {
+    font-size: 1.25rem;
+    max-width: 400px;
+    line-height: auto;
+    margin-top: -10px;
+}
+
+.footer-links-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: auto;
+}
+
+.footer-link {
+    list-style: none;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+.social-title {
+    font-weight: bold;
+    font-size: 1.625rem;
+    line-height: 26px;
+}
+
+.social-icon img {
+    margin-right: 15px;
 }
 
 
