@@ -1,0 +1,124 @@
+/* Common Styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bg-image {
+    background-image: url('../assets/bg.png');
+}
+
+.bg-image-gradient {
+    background-image: url('../assets/bg.png');
+}
+
+.bg-color-1 {
+    background-color: #FFFFFF;
+}
+
+.bg-color-2 {
+    background-color: #01ACFD;
+}
+
+.color-1 {
+    color: #FEA301;
+}
+
+.color-2 {
+    color: #01ACFD;
+}
+
+.color-3 {
+    color: #05D4DF;
+}
+
+.color-4 {
+    color: #5D58EF;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.btn-1 {
+    font-size: 1.25rem;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    color: #FEA301;
+    background-color: #FFFFFF;
+    border: 1px solid #FEA301;
+}
+
+.btn-2 {
+    font-size: 1.25rem;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    color: black;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Nav Style Starts */
+.nav-bar {
+   justify-content: space-around;
+   padding: 20px 0;
+}
+
+.nav-brand {
+    gap: 10px;
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.nav-link {
+    list-style: none;
+    margin-right: 35px;
+    font-size: 1.25rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
