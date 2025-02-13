@@ -403,10 +403,6 @@ footer {
         font-size: 85%;
     }
 
-    .section-title {
-        margin-bottom: -20px;
-    }
-
     .banner, .std-card-list, .footer-content  {
         flex-direction: column;
     }
