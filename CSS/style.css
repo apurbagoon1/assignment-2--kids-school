@@ -169,6 +169,10 @@
     text-decoration: none;
 }
 
+.nav-bar-2 {
+    visibility: hidden;
+}
+
 /* Banner Style Starts */
 .banner {
     justify-content: space-between;
@@ -336,6 +340,11 @@ footer {
     gap: 20px;
 }
 
+.footer-content {
+    justify-content: space-around;
+    padding: 20px 80px;
+}
+
 .footer-logo {
     width: 80px;
     /* color: #FFFFFF; */
@@ -364,8 +373,10 @@ footer {
 
 .footer-link {
     list-style: none;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-left: -40px;
     text-align: left;
+    
 }
 
 .footer-link a {
@@ -383,5 +394,105 @@ footer {
 .social-icon img {
     margin-right: 15px;
 }
+
+/* Responsive Media query */
+@media screen and (max-width: 576px) {
+    * {
+        font-size: 85%;
+    }
+
+    .section-title {
+        margin-bottom: -20px;
+    }
+
+    .banner, .std-card-list, .footer-content  {
+        flex-direction: column;
+    }
+
+    .nav-bar-2 {
+        justify-content: space-between;
+        visibility: visible;
+        padding: 15px;
+        border-bottom: 0.5px solid #FEA301;
+    }
+
+    .menu-icon {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .nav-bar, .prev-next, .story-card-primary {
+        display: none;
+    }
+
+    .nav-brand {
+        text-align: left;
+    }
+     
+    .banner {
+        text-align: center;
+        flex-direction: column-reverse;
+        padding: 20px 0;
+    }
+
+    .banner-content {
+        margin-top: -35px;
+    }
+
+    .banner-image {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .banner-image img {
+        width: 100%; 
+    }
+
+    .std-card {
+        margin-bottom: -50px;
+    }
+
+    .card-secondary-list {
+        gap: 10px; 
+    }
+
+    .card-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+
+    .card-sec img {
+        width: 100%; 
+    }
+
+    .card-sec-date {
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        margin-top: 30px;
+        margin-left: -60px;
+        padding: 5px;
+    }
+
+    .card-sec-title {
+
+        padding: 10px;
+    }
+
+    .footer-content {
+        padding: 0 10px;
+        margin: -20px auto;
+    }
+    
+    .footer-links, .footer-links a, .social-icons {
+        text-align: center;
+        display: block;
+    }
+
+}
+
 
 
